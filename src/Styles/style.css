@@ -1,0 +1,10 @@
+@import "./Color/Color.css";
+@import "./Common/Common.css";
+@import "./Layout/Layout.css";
+
+.topLogo {
+  position: absolute;
+  top: 37px;
+  left: 35px;
+  z-index: 1;
+}
