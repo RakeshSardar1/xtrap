@@ -81,4 +81,46 @@
   justify-content: center;
   margin-top: 80px;
   border-radius: 5px;
+}
+
+.homeAbout {
+  display: flex;
+  color: white;
+  padding: 100px;
+  max-height: 703px;
+  gap: 10%;
+  box-sizing: content-box;
+}
+.homeAbout h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 73px;
+  display: flex;
+  flex-direction: column;
+}
+.homeAbout h2 span {
+  font-size: 40px;
+}
+.homeAbout .anuDesc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+}
+.homeAbout .anuDesc span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.homeAbout .readMoreAbout {
+  color: #246bfd;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.homeAbout .homeAboutLeft {
+  width: 50%;
+}
+.homeAbout .homeAboutRight {
+  width: 50%;
+}
+.homeAbout .homeAboutRight img {
+  width: 100%;
 }/*# sourceMappingURL=Layout.css.map */

@@ -84,3 +84,46 @@
     border-radius: 5px;
   }
 }
+
+//homeAbout
+.homeAbout {
+  display: flex;
+  color: white;
+  padding: 100px;
+  max-height: 703px;
+  gap: 10%;
+  box-sizing: content-box;
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 73px;
+    display: flex;
+    flex-direction: column;
+    span {
+      font-size: 40px;
+    }
+  }
+  .anuDesc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    span {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  .readMoreAbout {
+    color: $blue;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .homeAboutLeft {
+    width: 50%;
+  }
+  .homeAboutRight {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}

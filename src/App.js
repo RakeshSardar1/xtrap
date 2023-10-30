@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/style.css";
-import { Banner } from "./Layouts";
+import { About, Banner } from "./Layouts";
 
 import LogoIcon from "./Assets/img/logo.png";
 
@@ -11,6 +11,7 @@ function App() {
         <img src={LogoIcon} alt={LogoIcon} />
       </div>
       <Banner />
+      <About />
     </div>
   );
 }
