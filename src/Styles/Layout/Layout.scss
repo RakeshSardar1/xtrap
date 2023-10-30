@@ -8,7 +8,6 @@
 .mainHeroBanner {
   max-width: 1200px;
   max-height: 803px;
-  margin-top: 77px;
   position: relative;
 }
 .heroBannerImg {
@@ -89,14 +88,15 @@
 .homeAbout {
   display: flex;
   color: white;
-  padding: 100px;
   max-height: 703px;
   gap: 10%;
   box-sizing: content-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
   h2 {
     font-size: 40px;
     font-weight: 600;
-    line-height: 73px;
+    line-height: 1.46;
     display: flex;
     flex-direction: column;
     span {
@@ -107,23 +107,186 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 45px;
+    &:not(span) {
+    }
+    font-family: "Poppins", sans-serif;
     span {
       font-size: 20px;
       font-weight: 600;
+      // font-family: "Avenir Next LT Pro", "Source Sans Pro";
     }
   }
   .readMoreAbout {
     color: $blue;
     text-decoration: underline;
     font-weight: 600;
+    line-height: 2.5;
+    font-size: 18px;
   }
   .homeAboutLeft {
     width: 50%;
+    .homeAboutLeftTop {
+      color: $grey;
+      font-size: 30px;
+    }
   }
   .homeAboutRight {
     width: 50%;
     img {
       width: 100%;
+    }
+  }
+}
+
+//Featured
+.featuredIn {
+  // padding-top: 100px;
+  // padding-bottom: 100px;
+  .featureHead {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 100px;
+      color: white;
+      white-space: nowrap;
+      font-weight: 600;
+      margin: 0;
+      span {
+        font-size: 100px;
+        color: $blue;
+      }
+    }
+    .blueBar {
+      height: 4px;
+      max-width: 609px;
+      width: 100%;
+      background: $blue;
+      margin-left: 80px;
+    }
+  }
+  .featuredBody {
+    color: white;
+
+    .featuredBodyRight {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        width: 70%;
+      }
+    }
+    h3 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 25px;
+      font-size: 400;
+      line-height: 1.6;
+    }
+    .featuredImages {
+      padding-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+//Youtube Channel
+.youtubeChannel {
+  color: white;
+  background: linear-gradient(285.87deg, #081225 100%, #1f1f28 200.02%);
+  padding: 50px;
+  margin-top: 100px;
+  border-radius: 20px;
+  .youtubeChannelHeader {
+    h2 {
+      font-size: 50px;
+      margin-top: 0;
+    }
+  }
+  .youtubeHeaderTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 25px;
+      width: 60%;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+  }
+  .youtubeHeaderBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    p {
+      font-weight: 400;
+      max-width: 93%;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+//bottomPage
+.bottomPage {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(90deg, #39174c, #050608, #0d101e);
+  overflow: hidden;
+  padding-top: 100px;
+  h2 {
+    margin-top: 0;
+    font-size: 100px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 2;
+  }
+  .bottomPageBottom {
+    .bottomPageBottomForm {
+      margin-top: 20px;
+    }
+    input,
+    button {
+      height: 60px;
+      width: 600px;
+      border: 1px solid rgba(255, 255, 255, 1);
+      background: transparent;
+      padding-left: 20px;
+      border-radius: 5px;
+      &::placeholder {
+        font-weight: 600;
+        color: white;
+      }
+    }
+    button {
+      background: $blue;
+      color: white;
+      border-color: $blue;
+      font-size: 16px;
+    }
+  }
+  .bottomPageLeft {
+    padding-left: 100px;
+  }
+  .bottomPageRight {
+    position: relative;
+
+    .loveMessage {
+      position: absolute;
+      top: -103px;
+      right: 82px;
     }
   }
 }

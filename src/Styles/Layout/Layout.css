@@ -8,7 +8,6 @@
 .mainHeroBanner {
   max-width: 1200px;
   max-height: 803px;
-  margin-top: 77px;
   position: relative;
 }
 
@@ -86,15 +85,16 @@
 .homeAbout {
   display: flex;
   color: white;
-  padding: 100px;
   max-height: 703px;
   gap: 10%;
   box-sizing: content-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .homeAbout h2 {
   font-size: 40px;
   font-weight: 600;
-  line-height: 73px;
+  line-height: 1.46;
   display: flex;
   flex-direction: column;
 }
@@ -105,6 +105,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 45px;
+  font-family: "Poppins", sans-serif;
 }
 .homeAbout .anuDesc span {
   font-size: 20px;
@@ -114,13 +115,163 @@
   color: #246bfd;
   text-decoration: underline;
   font-weight: 600;
+  line-height: 2.5;
+  font-size: 18px;
 }
 .homeAbout .homeAboutLeft {
   width: 50%;
+}
+.homeAbout .homeAboutLeft .homeAboutLeftTop {
+  color: #616178;
+  font-size: 30px;
 }
 .homeAbout .homeAboutRight {
   width: 50%;
 }
 .homeAbout .homeAboutRight img {
   width: 100%;
+}
+
+.featuredIn .featureHead {
+  display: flex;
+  align-items: center;
+}
+.featuredIn .featureHead h2 {
+  font-size: 100px;
+  color: white;
+  white-space: nowrap;
+  font-weight: 600;
+  margin: 0;
+}
+.featuredIn .featureHead h2 span {
+  font-size: 100px;
+  color: #246bfd;
+}
+.featuredIn .featureHead .blueBar {
+  height: 4px;
+  max-width: 609px;
+  width: 100%;
+  background: #246bfd;
+  margin-left: 80px;
+}
+.featuredIn .featuredBody {
+  color: white;
+}
+.featuredIn .featuredBody .featuredBodyRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featuredIn .featuredBody .featuredBodyRight p {
+  width: 70%;
+}
+.featuredIn .featuredBody h3 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.featuredIn .featuredBody p {
+  font-size: 25px;
+  font-size: 400;
+  line-height: 1.6;
+}
+.featuredIn .featuredBody .featuredImages {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.youtubeChannel {
+  color: white;
+  background: linear-gradient(285.87deg, #081225 100%, #1f1f28 200.02%);
+  padding: 50px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.youtubeChannel .youtubeChannelHeader h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+.youtubeChannel .youtubeHeaderTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtubeChannel .youtubeHeaderTop p {
+  font-size: 25px;
+  width: 60%;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.youtubeChannel .youtubeHeaderBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.youtubeChannel .youtubeHeaderBottom p {
+  font-weight: 400;
+  max-width: 93%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.youtubeChannel .youtubeHeaderBottom h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bottomPage {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(90deg, #39174c, #050608, #0d101e);
+  overflow: hidden;
+  padding-top: 100px;
+}
+.bottomPage h2 {
+  margin-top: 0;
+  font-size: 100px;
+}
+.bottomPage p {
+  font-size: 20px;
+  line-height: 2;
+}
+.bottomPage .bottomPageBottom .bottomPageBottomForm {
+  margin-top: 20px;
+}
+.bottomPage .bottomPageBottom input,
+.bottomPage .bottomPageBottom button {
+  height: 60px;
+  width: 600px;
+  border: 1px solid rgb(255, 255, 255);
+  background: transparent;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.bottomPage .bottomPageBottom input::-moz-placeholder, .bottomPage .bottomPageBottom button::-moz-placeholder {
+  font-weight: 600;
+  color: white;
+}
+.bottomPage .bottomPageBottom input::placeholder,
+.bottomPage .bottomPageBottom button::placeholder {
+  font-weight: 600;
+  color: white;
+}
+.bottomPage .bottomPageBottom button {
+  background: #246bfd;
+  color: white;
+  border-color: #246bfd;
+  font-size: 16px;
+}
+.bottomPage .bottomPageLeft {
+  padding-left: 100px;
+}
+.bottomPage .bottomPageRight {
+  position: relative;
+}
+.bottomPage .bottomPageRight .loveMessage {
+  position: absolute;
+  top: -103px;
+  right: 82px;
 }/*# sourceMappingURL=Layout.css.map */
