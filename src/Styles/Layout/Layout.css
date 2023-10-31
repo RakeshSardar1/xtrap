@@ -274,4 +274,99 @@
   position: absolute;
   top: -103px;
   right: 82px;
+}
+
+.upComingProject {
+  background-color: #181c22;
+  color: white;
+  padding: 50px;
+  margin-top: 100px;
+  border-radius: 20px;
+  background: radial-gradient(21.19% 40.1% at 100.03% 0%, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(0deg, #181c22, #181c22), radial-gradient(98% 49.86% at 100.03% 100%, #246bfd 0%, rgba(51, 163, 109, 0.05) 100%), radial-gradient(24.21% 39.21% at 0% 0%, rgba(255, 255, 255, 0.81) 0%, rgba(255, 255, 255, 0.19) 100%);
+}
+.upComingProject h2 {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.upComingProject p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-top: 50px;
+}
+.upComingProject img {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.awardWinning {
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+.awardWinning .awardCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.awardWinning h2 {
+  font-size: 120px;
+  text-align: center;
+}
+.awardWinning .awardCard {
+  background: #181c22;
+  padding: 50px;
+  padding-bottom: 0;
+  min-width: 550px;
+}
+.awardWinning .awardCard .awardCardHeader {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.awardWinning .awardCard .awardCardHeader .awardCardHeaderImg {
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+}
+.awardWinning .awardCard:first-child .awardCardHeaderImg {
+  background: #246bfd;
+}
+.awardWinning .awardCard:last-child .awardCardHeaderImg {
+  background: #f64538;
+}
+.awardWinning .awardCard .cardType {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #616178;
+}
+.awardWinning .awardCard h2 {
+  text-align: start;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.awardWinning .awardCard .cardShortType {
+  font-size: 16px;
+}
+.awardWinning .awardCard .awardCardBottom {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  justify-content: flex-end;
+}
+.awardWinning .awardCard .awardCardBottom p {
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+}
+.awardWinning .awardCard .awardCardBottom img {
+  position: relative;
+  right: -49px;
+  top: 5px;
 }/*# sourceMappingURL=Layout.css.map */

@@ -3,5 +3,15 @@ import About from "./About";
 import Featured from "./Featured";
 import Youtube from "./Youtube";
 import AboutBottom from "./AboutBottom";
+import UpComingProject from "./UpComingProject";
+import AwardWinning from "./Award";
 
-export { Banner, About, Featured, Youtube, AboutBottom };
+export {
+  Banner,
+  About,
+  Featured,
+  Youtube,
+  AboutBottom,
+  UpComingProject,
+  AwardWinning,
+};

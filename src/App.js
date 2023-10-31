@@ -1,6 +1,14 @@
 import React from "react";
 import "./Styles/style.css";
-import { About, AboutBottom, Banner, Featured, Youtube } from "./Layouts";
+import {
+  About,
+  AboutBottom,
+  AwardWinning,
+  Banner,
+  Featured,
+  UpComingProject,
+  Youtube,
+} from "./Layouts";
 
 import LogoIcon from "./Assets/img/logo.png";
 
@@ -18,6 +26,8 @@ function App() {
           <About />
           <Featured />
           <Youtube />
+          <AwardWinning />
+          <UpComingProject />
         </div>
         <AboutBottom />
       </div>
