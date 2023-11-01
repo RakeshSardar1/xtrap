@@ -5,6 +5,8 @@ import Youtube from "./Youtube";
 import AboutBottom from "./AboutBottom";
 import UpComingProject from "./UpComingProject";
 import AwardWinning from "./Award";
+import Staticstics from "./Statistics";
+import Genres from "./Genres";
 
 export {
   Banner,
@@ -14,4 +16,6 @@ export {
   AboutBottom,
   UpComingProject,
   AwardWinning,
+  Staticstics,
+  Genres,
 };

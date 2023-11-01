@@ -6,6 +6,8 @@ import {
   AwardWinning,
   Banner,
   Featured,
+  Genres,
+  Staticstics,
   UpComingProject,
   Youtube,
 } from "./Layouts";
@@ -26,6 +28,8 @@ function App() {
           <About />
           <Featured />
           <Youtube />
+          <Staticstics />
+          <Genres />
           <AwardWinning />
           <UpComingProject />
         </div>
