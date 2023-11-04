@@ -37,7 +37,6 @@ ul {
 p {
   margin: 0;
 }
-
 .portFolio {
   position: relative;
   display: flex;
@@ -45,12 +44,12 @@ p {
   flex-direction: column;
 }
 
+.topBannerHero {
+  padding-top: 100px;
+  background-image: linear-gradient(to right, #39174c, #0d101e);
+}
 .homeOthers {
   padding: 100px;
   padding-top: 0;
   background-image: linear-gradient(90deg, #39174c, #050608, #0d101e);
-}
-.topBannerHero {
-  padding-top: 100px;
-  background-image: linear-gradient(to right, #39174c, #0d101e);
 }
